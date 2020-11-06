@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Black</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        color: rgb(255, 255, 255);
+        background: transparent;
+        background-color: rgba(0, 0, 0, 0.23);
+        z-index: 999;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        padding: 10px;
+      }
+
+      i {
+          color: inherit;
+      }
+
+      body {
+        background: url("images/bg2.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+
+      body:after {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+      }
+    </style>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <h1>
+      Sorry! Sign up is not available right now! Please try later! <i class="fas fa-smile"></i>
+    </h1>
+  </body>
+</html>

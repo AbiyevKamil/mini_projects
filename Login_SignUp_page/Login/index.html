@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Black | Sign-in</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
+    <div class="bg-img">
+      <div class="content">
+        <header>Login</header>
+        <form action="./succes.html" id="form" method="POST">
+          <div class="field">
+            <span class="fa fa-user"></span>
+            <input type="email" id="email" required placeholder="Email" />
+          </div>
+          <div class="field space">
+            <span class="fa fa-lock"></span>
+            <input
+              id="password"
+              type="password"
+              class="password"
+              required
+              placeholder="Password"
+              maxlength="35"
+            />
+            <span class="show">SHOW</span>
+          </div>
+          <div class="pass">
+            <a href="#">Forgot Password?</a>
+          </div>
+
+          <div class="field space">
+            <input type="submit" value="LOGIN" />
+          </div>
+          <div class="login">or login with</div>
+          <div class="link">
+            <div class="facebook">
+              <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+            </div>
+            <div class="apple">
+              <a href="https://www.apple.com/shop/browse/account/home" class="fab fa-apple"></a>
+            </div>
+            <div class="google">
+              <a href="https://accounts.google.com/login" class="fab fa-google"></a>
+            </div>
+          </div>
+          <div class="signup">
+            Don`t have an account?
+            <a href="../Signup/index.html">Sign Up</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
